@@ -1,0 +1,24 @@
+.currencyAll {
+  list-style: none;
+}
+
+.btn_update {
+  margin-top: 50px;
+  margin-left: 100px;
+  display: flex;
+  justify-content: flex-end;
+  > button {
+    width: 10rem;
+    height: 3rem;
+    border-radius: 5px;
+    background-color: rgb(73, 196, 120);
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+}
+
+.container_data {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 80px;
+}

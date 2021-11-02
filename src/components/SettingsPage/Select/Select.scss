@@ -1,0 +1,24 @@
+.selector {
+  display: none;
+}
+
+.selector_active {
+  display: block;
+  max-height: 20rem;
+  overflow-y: scroll;
+  margin-top: 10px;
+}
+
+.selector_item {
+  width: 22rem;
+  cursor: pointer;
+  margin: 10px 0;
+  &:hover {
+    color: saddlebrown;
+  }
+}
+
+.query {
+  width: 12rem;
+  height: 1.5rem;
+}

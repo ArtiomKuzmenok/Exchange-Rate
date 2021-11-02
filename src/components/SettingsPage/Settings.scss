@@ -1,0 +1,53 @@
+.settings {
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+}
+
+.settings__choosen {
+  margin-left: 100px;  
+}
+
+.currency__choosen {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.currency__choosen_abr {
+  width: 2rem;
+}
+
+.currency__choosen_delete {
+  margin-left: 20px;
+  > button {
+    height: 25px;
+    border-radius: 5px;
+    background: #ea4335;
+    border: none;
+    color: white;
+  }
+}
+
+.link {
+  text-decoration: none;
+}
+
+.btn_accept {
+  margin-top: 50px;
+  margin-left: 100px;
+  display: flex;
+  justify-content: flex-end;
+  > button {
+    width: 10rem;
+    height: 3rem;
+    border-radius: 5px;
+    background-color: rgb(73, 196, 120);
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
